@@ -19,7 +19,7 @@ export default function Page() {
                     <Loader2  className="animate-spin text-muted-foreground" />
                 </ClerkLoading>
                 <ClerkLoaded>
-                    {/* <SignIn path="/sign-in" /> */}
+                    <SignIn path="/sign-in" />
                 </ClerkLoaded>
             </div>
         </div>
